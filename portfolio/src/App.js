@@ -111,7 +111,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="/ivyre.png" alt=""/>
+                  <img class="imagen1" src="/ecommerce.png" alt=""/>
               </div>
               <div class="referencia">
                   <p class="linea">..................................</p> <p class="numero">03</p> <h1>Pelis-Mern</h1>
