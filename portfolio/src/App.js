@@ -34,26 +34,26 @@ function App() {
           
           <nav class="menuindex">
               
-              <img src="/logo.png" alt=""/>
+              <img src="./logo.png" alt=""/>
               <i class="fa-solid fa-bars"></i>
               <a href="#home"class="menuindividual">
                   <p class="a1">HOME</p>
-                  <img src="/punto.png" alt=""/>
+                  <img src="./punto.png" alt=""/>
               </a>
               <a href="#proyectos"  class="menuindividual">
                   <p class="a1">PROYECTOS</p>
-                  <img src="/punto.png" alt=""/>
+                  <img src="./punto.png" alt=""/>
               </a>    
               <a href="#contacto"  class="menuindividual">
                   <p class="a1">CONTACTO</p>
-                  <img src="/punto.png" alt=""/>
+                  <img src="./punto.png" alt=""/>
               </a>
           </nav>
       </header>
       <main class="principal" id='home'>
           <section class="principalfondo">
           <div class="principal2">
-              <img class="imagencelu" src="/martin.jpg" alt=""/>
+              <img class="imagencelu" src="./martin.jpg" alt=""/>
               <div class="textoingreso">
                   <h1 class="diseñador">Full Stack developer</h1>
                   <p>Hola, soy Martin Bottaro, un apasionado desarrollador front end  <br/> & back end.</p>
@@ -73,10 +73,10 @@ function App() {
           </div>
           <div class="redondo"></div>
               <div class="contendorimagen">
-                  <img class="imageningreso" src="/martin.jpg" alt=""/>
+                  <img class="imageningreso" src="./martin.jpg" alt=""/>
               </div>
           </div>
-          <img class="scroll" src="/scroll.png" alt=""/>
+          <img class="scroll" src="./scroll.png" alt=""/>
           </section>
 
           <section class="letras">
@@ -98,7 +98,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="/galeria.png" alt=""/>
+                  <img class="imagen1" src="./galeria.png" alt=""/>
               </div>
               <div class="referencia">
                   <p class="linea">..................................</p> <p class="numero">02</p> <h1>E-commerce</h1>
@@ -111,7 +111,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="/ecommerce.png" alt=""/>
+                  <img class="imagen1" src="./ecommerce.png" alt=""/>
               </div>
               <div class="referencia">
                   <p class="linea">..................................</p> <p class="numero">03</p> <h1>Pelis-Mern</h1>
@@ -124,7 +124,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="/pelis-mern.png" alt=""/>
+                  <img class="imagen1" src="./pelis-mern.png" alt=""/>
               </div>
           </section>
 
