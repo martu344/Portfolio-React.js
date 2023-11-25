@@ -1,0 +1,1056 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+
+.seccionboton0:hover .boton0{
+
+    border-radius: 50px / 50px;
+    transform: translateX(0) scaleX(1) ;
+}
+
+@media (max-width: 780px) {
+
+    /* home */
+    html body header nav a{
+        display: none; 
+    }
+    html body header nav i.fa-solid.fa-bars{
+        display: block;
+        position: absolute;
+        right: 8%;
+    }
+ 
+    .seccionboton0:hover .boton0{
+
+        transform: translateX(25px) scaleX(1) ;  
+    }
+    main .imageningreso{
+        display: none;
+    }
+    main .principalfondo .principal2 .imagencelu{
+        display: block;
+        margin-left:23vw;
+        width: 50vw;
+        height: 80vw;
+        border-radius: 5%;
+    }
+    main .principalfondo .scroll{
+        display: none;
+    }
+    main .principalfondo{
+        height: 90vh;
+    }
+    main .principalfondo .principal2{
+        display: block;
+        padding: 0 5vw;
+    }
+    main .principalfondo .principal2 .redondo{
+     top: 0%;
+     left: 12vw;
+     width: 80vw;
+     height: 80vw;
+    }
+    main .diseñador{
+        font-size: 2rem;
+        margin-top: 15vw;
+    }
+    html body main.principal section.principalfondo div.principal2 div.textoingreso p{
+        font-size: 1rem;
+        line-height: 8vw;
+        margin-top: 5vw;
+    }
+    html body main.principal section.principalfondo div.principal2 div.textoingreso div.seccionboton0 a.mitrabajo{
+        text-decoration: none;
+        font-size:0.8rem;
+        width:40vw;
+        position: absolute;
+        top: 23%;
+        left: 10%;
+    }
+    html body main.principal section.principalfondo div.principal2 div.textoingreso div.seccionboton0 p.boton0{
+        width: 33vw;
+        height: 7vw;
+        left: -30%;
+    }
+    html body main.principal section.principalfondo div.principal2 div.textoingreso div.seccionboton0 span.material-symbols-outlined{
+        font-size: 1rem;
+       top:27%;
+       left: 110%;
+    }
+    
+    html body main.principal section.principalfondo div.principal2 div.textoingreso div.seccionboton0{
+        margin-top:15vw;
+        width: 30vw;
+        height: 20vw;  
+    }
+    main .linkgit{
+        display: none;
+    }
+    main .fondo2{
+        height: 25vh;
+    }
+    main .fondo2 p{
+        font-size: small;
+        top: 55%;
+        left: 10%;
+    }
+
+    main .fondo2 img{
+        width: 10vw;
+        left: 44%;
+        top: 60%;
+    }
+    main .fondo2 h1{
+        top: 10%;
+        left: 10%;
+        width: 50vw;
+        line-height: 10vw;
+        
+    }
+    main .proyectos .referencia{
+        background-color:white;
+        border: none;
+        display: block;
+        height: 45vh;
+        width: 100vw;
+       
+    }
+    html body main.principal section.proyectos div.referencia p.numerogrande{
+        display: none;
+    }
+   
+    html body main.principal section.proyectos div.referencia div.seccionboton0 a{
+        text-decoration: none;
+        font-size:0.8rem;
+        width:40vw;
+        position: absolute;
+        top: -5%;
+        left: 7%;
+    }
+    html body main.principal section.proyectos div.referencia div.seccionboton0 p.boton0{
+        width: 33vw;
+        height: 7vw;
+        left: -36%;
+    }
+    html body main.principal section.proyectos div.referencia div.seccionboton0 span.material-symbols-outlined{
+        position: absolute;
+        top: 0%;
+        color: #181818;
+    }
+   
+    html body main.principal section.proyectos div.referencia div.seccionboton0{
+        left: 16%;
+        top: 65%;
+        width: 30vw ;
+        height: 20vw; 
+    }
+    main .proyectos .referencia .imagen1{
+        width: 100vw;
+        transform: scaleX(1);
+        margin-left: 0;
+        position: absolute;
+        bottom: 46%; 
+    }
+    main .proyectos .referencia h1{
+        transform: scaleX(1);
+        position: absolute;
+        bottom: 35%; 
+        left: 10%;
+        font-size: 1.5rem;
+        color: black;
+    }
+    main .proyectos .referencia .numero{
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 36%; 
+        left: 3%;
+        color: black;
+    }
+    main .proyectos .referencia:hover{
+       font-size: 0.7rem;
+       
+    }
+    main .proyectos .referencia .linea{
+     display: none;
+       
+    }
+    html body footer div.medioredondo2{
+        display: none;
+    }
+    html body footer div.medioredondo{
+        display: none;
+    }
+   
+    html body main.principal section.seccionmasproyectos img.scrolltopnegro{
+        display: none;
+    }
+    html body main.principal section.seccionmasproyectos{
+        padding: 5vw;
+    }
+    html body footer{
+        height: 70vw;
+        align-items: start;
+    }
+    html body footer div.seccionredondo{
+        width: 65vw;
+    }
+    html body footer div.seccionredondo h1{
+        font-size: 1.5rem;
+        margin-top: 2vh;
+        
+    }
+    html body footer div.seccionredondo p{
+        top: 75%;
+        left: 10%;
+    }
+    html body footer div.seccionredondo div.redondorayado{
+        left: -19%;
+        top: 5%;
+        width: 20vw;
+        height: 20vw;
+    }
+    html body footer div.seccionboton0{
+        bottom: 30%;
+        width: 15vw;
+    }
+    html body footer div.seccionboton0 span.material-symbols-outlined{
+        left:100%;
+        font-size: 0.8rem;
+        margin-top: 8px;
+    }
+    html body footer div.seccionboton0 p.boton0{
+        
+        left: -40%;
+        width: 15vw;
+        height: 5vw;
+        transform: scaleX(.3) translateX(0vw);
+        
+    }
+    html body footer div.seccionboton0 a{
+        font-size: 0.8rem;
+        margin-top: 8px;
+    }
+    html body footer div.pieB{
+        left: 30%;
+    }
+    /* about me */
+    header .menu img{
+        margin-right: 85vw;
+    }
+    main .primerseccion p{
+        font-size: small;   
+        line-height: 5vw;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    main .primerseccion .imagen{
+        margin-bottom: 10vw;
+    }
+    html body main section.primerseccion div.seccionborde img.imagen{
+        width: 50vw;
+        margin-left: 24%;
+    }
+    html body main section.primerseccion div.seccionborde div.marco{
+        width: 50vw;
+        height: 50vw;
+        left: 17%;
+        top: 15%;
+    }
+    main .primerseccion h1{
+        font-size: 5vw;
+    }
+
+    main .segundaseccion p {
+        font-size: small;   
+        line-height: 5vw;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    main .segundaseccion h1 {
+        font-size: 5vw;
+    }
+    main .tercerseccion h4{
+        font-size: 3.5vw;
+        margin-top: 5vw;
+        margin-left: 10vw;
+    }
+    main .tercerseccion p{
+        font-size: small;   
+        line-height: 5vw;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    main .tercerseccion li{
+        font-size: small;   
+        line-height:5vw;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    main .cuartaseccion{
+        height: 50vw;
+    }
+    main .cuartaseccion h1{
+        font-size: 5vw;
+        top: 30%;
+    }
+    main .cuartaseccion p{
+        font-size: xx-small;
+        margin-top: 10vw;
+    }
+    html body footer.footeracercade section.footeraboutme div.seccionredondo h1{
+        top: 10%;
+        width: 50vw;
+        font-size: 1.3rem;
+    }
+    html body footer.footeracercade section.footeraboutme div.seccionredondo p{
+        top:70%;
+        left: 20%;
+        width: 80vw;
+    }
+    html body footer.footeracercade section.footeraboutme2 img{
+        height: 20vw;
+        left: 80%;
+    }
+    html body footer.footeracercade section.footeraboutme2 div.linkgit{
+        display: none;
+    }
+    html body footer.footeracercade section.footeraboutme2 div.mediocirculo{
+        display: none;
+    }
+
+    /* contacto */
+    html body main.formulario {
+        display: block;
+        margin-top: 10vh;
+        margin-left: 10vw;
+    }
+    html body main.formulario div{
+        width: 80%;
+    }
+    html body main.formulario div p{
+        font-size:small;
+    line-height: 3vh;
+    margin-top: 5vh;
+
+    }
+    html body main.formulario div .input input{
+        font-size:0.8rem;
+        width: 70vw;
+        margin-top:3vh;
+    }
+    html body main.formulario div .input{
+        width: 70vw;
+        
+    }
+    html body main.formulario div textarea{
+        font-size:0.8rem;
+        margin-top: 3vh;
+        height: 15vh;
+        width: 70vw;
+    }
+    html body main.formulario div form.input div p{
+        top: 58%;
+        left: 106%;
+    }
+   
+    html body main.formulario div h1{
+        font-size: 1.5rem;
+    }
+    html body main.formulario img.imgcontact{
+        display: none;
+    }
+   
+    html body footer.piecontacto div.pieB{
+        left: 28%;
+        bottom: 30%;
+    }
+    html body main.formulario div div.seccionboton0 p.boton0{
+        left:5%;
+        width: 20vw;
+        height: 2vh;
+        top: -50%;
+    }
+    html body main.formulario div div.seccionboton0{
+        margin-top: 10px;
+        width: 30vw;
+        height: 60px;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+   
+    background-color: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+/* personalizacion de barra para firefox */
+.proyectos::-webkit-scrollbar {
+  display:none
+  }
+
+.proyectos {
+    scrollbar-width: none;
+  }
+html{
+    scrollbar-color: #e4e3e3 #FFFFFF;
+    scrollbar-width: thin;
+    width: 100vw;
+  }
+
+ .index{
+    overflow-y: hidden;
+    animation-name: scrollear;
+    animation-delay: 9s;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+ }
+
+
+/* header */
+header .fa-solid{
+    display:none;
+}
+
+.menu{
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: +20;
+
+}
+.menuindex{
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    animation-name: menufijo;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    display: flex;
+    width: 100vw;
+}
+.menu img{
+    width: 5vw;
+    height: 5vw;
+    margin-right: 60vw;
+}
+.menuindex img{
+    width: 5vw;
+    height: 5vw;
+    margin-right: 60vw;
+}
+
+.menuindividual{
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    width: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #393939;
+    font-size: small;
+    height: 2vw;
+}
+.menuindividual img{
+    position: absolute;
+    width: 0.8vw;
+    height: 0.8vw;
+    left: 45%;
+    display: none;
+
+}
+.menuindividual:hover img{
+    display: inline;
+    color: black;
+}
+.menuindividual:hover p{
+    color: black;
+}
+
+/* main */
+
+.principal{
+    position: relative;
+    margin-top: 8vw;
+    width: 100vw;
+}
+
+.principalfondo{
+    background-color: #F9F9F9;
+    height: 40vw;
+    width: 100vw;
+}
+.principal2{
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    display: flex;
+    padding-left: 15vw;
+
+}
+.imagencelu{
+    display: none;
+}
+.scroll{
+    position: absolute;
+    left: 95%;
+    top: 15%;
+    opacity: 0.7;
+}
+
+.material-symbols-outlined { /*flehca*/
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  opacity: 0.5;
+  position: absolute;
+  top: 10%;
+  left: 85%;
+}
+
+.redondo{
+    position: absolute;
+    z-index: -10;
+    left: 40vw;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    width: 35vw;
+    height: 35vw;
+}
+.imageningreso{
+    position: absolute;
+    left: 153%;
+    width: 20vw;
+    height: 36vw;
+    border-radius: 50%;
+}
+.letras{
+    position: relative;
+    background-color: #181818;
+    height: 30vw;
+    width: 100vw;
+    padding:1vw 0;
+    overflow-x: hidden;
+}
+.letras h1{
+    white-space: nowrap;
+    position: absolute;
+    left: -2vw;
+    font-size: 5vw;
+    color:  #181818;
+    text-shadow: -0.5px -0.5px 0 #F9F9F9, 0.5px 0.5px 0 #F9F9F9, 0.5px -1px 0 #F9F9F9;
+    opacity: 0.8;
+    margin-top: 2vw;
+}
+.letras h1 span{
+    margin: 0 4vw;
+}
+.letras .h11{
+    position: absolute;
+    left: -2vw;
+    top: 10vw;
+}
+.letras .h111{
+    position: absolute;
+    left: -2vw;
+    top: 20vw;
+}
+.linkgit{
+    margin-top: 15vw;
+}
+.mitrabajo{
+    display: flex;
+    width: 10vw;
+    font-size: small;
+    font-weight: bold;
+    color: #393939;
+    text-decoration: none;
+    margin-top:.6vw;
+}
+
+.seccionboton0{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    height: 3vw;
+    width: 170px;
+    margin-top: 8vw;
+}
+.boton0{
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    padding:8px;
+    border-radius: 100%;
+    background-color: #e4e3e3;
+    width: 160px;
+    height: 40px;
+    transform: scaleX(.3) translateX(-15vw);
+    transition: 1s;
+}
+
+
+.botonfooter:hover a{
+    color: #363636;
+}
+
+
+
+.textoingreso a{
+    font-size: small;
+    color: #393939;
+    text-decoration: underline;
+
+}
+.textoingreso p{
+    font-size:small;
+    line-height: 3vw;
+    color: #393939;
+
+}
+.separador{
+    display: inline;
+    margin: 0 1.5vw;
+}
+
+.diseñador{
+    line-height: 5vw;
+    margin-top: 2vw;
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 3vw;
+}
+
+/* Presentacion */
+.presentacion{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    animation-name: presentacion;
+    animation-delay: 9s;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+
+}
+.nombre{
+    font-weight: 400;
+    width: 100vw;
+    color: #F9F9F9;
+    animation-duration: 2s;
+    text-align: center;
+    animation-name: nombre;
+    margin-top:42vh;
+    margin-bottom: 3vh;
+}
+.partearriba{
+    background-color: #393939;
+    width: 100vw;
+    height: 50vh;
+    animation-name: partearriba;
+    animation-delay: 6.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+.parteabajo{
+    background-color: #393939;
+    width: 100vw;
+    height: 50vh;
+    animation-name: parteabajo;
+    animation-delay: 6.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.linea1{
+    position: absolute;
+    z-index: 0;
+    padding-left:10vw ;
+    width: 0vw;
+    margin:0 45vw;
+    opacity: 0.2;
+    border-top: 4px solid #F9F9F9;
+    animation-duration: 2s;
+    animation-name:linea1 ;
+    animation-delay: 4.8s;
+    animation-fill-mode: forwards;
+}
+ .linea2{
+    margin:0 45vw;
+    border-top: 4px solid #F9F9F9;
+    animation-duration: 4s;
+    animation-name:linea2;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    opacity:0;
+    color: #393939;
+}
+
+/* Main/proyectos */
+.imagen1{
+    width: 40vw;
+    transform: scaleX(0);
+    margin-left: 100vw;
+    transition: 1s;
+    position: absolute;
+    z-index: 2;
+}
+
+.numero{
+    color: #393939;
+    margin: 0 1vw;
+}
+.numerogrande{
+    position: absolute;
+    left: 25vw;
+    color: #393939;
+    opacity: 0.5;
+    font-size: 8vw;
+    transform: scale(0);
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.referencia{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    height: 20vw;
+    color: #393939;
+    border-top: 0.1px solid #dad8d8;
+    border-bottom:0.1px solid #dad8d8 ;
+}
+.referencia h1{
+    font-size: 2vw;
+
+}
+
+.referencia a{
+    text-decoration: none;
+    color: #393939;
+    font-size: small;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-right: 7px;
+    margin-top: 7.5px;
+}
+
+.referencia .seccionboton0{
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    z-index: 5;
+}
+.referencia .seccionboton0 .boton0{
+   left: 15%;
+}
+.recuadro{
+    width: 40vw;
+    height: 20vw;
+    background-color: #d3e3fa;
+    position: absolute;
+    left: 55%;
+    top:20% ;
+    margin-left: 25vw;
+    z-index: 2;
+    transform: scaleX(0);
+    transition: 1s;
+}
+
+.referencia:hover{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 2vw;
+}
+.referencia:hover .linea{
+    width: 20vw;
+}
+.referencia:hover .imagen1{
+    display:inline;
+    margin-left: 30vw;
+    transform: scaleX(1) translateX(75%) skewY(-3deg);
+    transform-origin: top left;
+}
+.referencia:hover .recuadro{
+    transform: scaleX(1);
+    margin-left: 0;
+}
+.referencia:hover .numerogrande{
+    transform: scale(1);
+}
+.linea{
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    color: #FFFFFF;
+    width: 15vw;
+    transition: 1s;
+}
+
+/* seccion mas proyectos */
+.seccionmasproyectos{
+    position: relative;
+    background-color: #FFFFFF;
+    height: 20vw;
+    padding: 10vw 12vw;
+}
+.scrolltopnegro{
+    position: absolute;
+    left: 95%;
+    opacity: 0.9;
+}
+.seccionmasproyectos p{
+    color: #393939;
+    font-size: small;
+    margin-bottom: 2vw;
+    margin-top: 5vw;
+}
+.seccionmasproyectos h1{
+    line-height: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.seccionmasproyectos a{
+    text-decoration: none;
+    color: #272727;
+}
+/* cuarta seccion */
+.cuartaseccion{
+    background-color: #FFFFFF;
+    height: 40vw;
+    width: 100vw;
+    position: relative;
+
+}
+.cuartaseccion h1{
+    text-align: center;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+}
+.cuartaseccion p{
+    text-align: end;
+    font-size: small;
+    line-height: 3.5vw;
+    margin-right: 10vw;
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    right: 10%;
+
+}
+
+.redondochico{
+    width: 12vw;
+    height: 12vw;
+    border-radius:100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.mediocirculo{
+    position: absolute;
+    top: -12%;
+    left: 34%;
+    width: 45vw;
+    height: 45vw;
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    border-radius: 100%;
+}
+/* footer */
+
+footer{
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: #FFFFFF;
+    background-color: #272727;
+    height: 38vw;
+}
+.seccionredondo{
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+}
+.redondorayado{
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+    left: 65%;
+    bottom:70%;
+    border-radius: 100%;
+    width: 12vw;
+    height: 12vw;
+    background-image: 
+    repeating-linear-gradient(
+        -45deg,
+        #FFFFFF 0px,
+        #272727 2px,
+        #272727 9px,
+        #FFFFFF 0px
+    );
+}
+
+
+footer .seccionboton0 .boton0{
+    background-color: #363636;
+    width: 100px;
+    height: 30px;
+    transform: scaleX(.3) translateX(-6vw);
+    top: -6%;
+}
+footer .seccionboton0 .material-symbols-outlined{
+   top: 15%;
+   left: 70%;
+}
+
+footer h1{
+    position: absolute;
+    z-index: 1;
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer .seccionboton0 a{
+    margin-top: 0.5vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer .seccionredondo p{
+    position:absolute;
+    left: 25%;
+    top: 35%;
+    font-size: small;
+}
+.pieB{
+    display: flex;
+    position:absolute;
+    left: 40%;
+    bottom: 1%;
+    font-size:x-small;
+}
+.pieB p{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 1vw;
+}
+.pieB a{
+    margin: 0 1vw;
+    color: #FFFFFF;
+}
+.medioredondo{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #dad8d8;
+    width: 50vw;
+    height: 50vw;
+    clip-path: ellipse(30vw 35vw at 0% 100%);
+}
+.medioredondo2{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #272727;
+    width: 50vw;
+    height: 50vw;
+    clip-path: ellipse(29.9vw 34.9vw at 0% 100%);
+}
+
+/* animaciones para menu, presentacion */
+@keyframes scrollear {
+    100%{overflow-y: auto;}
+    
+}
+@keyframes menufijo {
+
+    100%{
+        position: fixed;
+        top: 0;
+        z-index: +20;
+    } 
+
+ }
+@keyframes presentacion {
+    0%{ opacity: 0;
+        position: absolute;
+        z-index: -100;
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+         position: absolute;
+        z-index: -100;
+        transform: scale(0);
+        opacity: 0;
+    }
+    }
+@keyframes partearriba {
+    0%{  }
+
+    100%{
+        transform: translateY(-100%);
+        opacity: 0.2;
+    }
+    }
+@keyframes parteabajo {
+        0%{   }
+
+        100%{
+        transform: translateY(100%);
+        opacity: 0.2;
+        }
+    }
+
+@keyframes linea1 {
+    0%{
+
+    }
+    80%{
+        opacity: 1;
+        margin: 0;
+        width: 100vw;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes linea2 {
+    0%{
+        margin-right: 100%;
+    }
+
+    99%{
+
+        opacity: 0.5;
+     }
+     100%{
+        display: none;
+     }
+
+}
+
+@keyframes nombre {
+    0%{
+        transform:scale(1.8);
+        opacity:0;
+    }
+}
