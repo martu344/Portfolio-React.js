@@ -98,7 +98,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="./galeria.png" alt=""/>
+                  <img class="imagen1" src="./galeria.PNG" alt=""/>
               </div>
               <div class="referencia">
                   <p class="linea">..................................</p> <p class="numero">02</p> <h1>E-commerce</h1>
@@ -111,7 +111,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="./ecommerce.png" alt=""/>
+                  <img class="imagen1" src="./ecommerce.PNG" alt=""/>
               </div>
               <div class="referencia">
                   <p class="linea">..................................</p> <p class="numero">03</p> <h1>Pelis-Mern</h1>
@@ -124,7 +124,7 @@ function App() {
                       </span>
                   </div>
                   <div class="recuadro"></div>
-                  <img class="imagen1" src="./pelis-mern.png" alt=""/>
+                  <img class="imagen1" src="./pelis-mern.PNG" alt=""/>
               </div>
           </section>
 
