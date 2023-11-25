@@ -56,7 +56,7 @@ function App() {
               <img class="imagencelu" src="/martin.jpg" alt=""/>
               <div class="textoingreso">
                   <h1 class="diseñador">Full Stack developer</h1>
-                  <p>Hola, soy Martin Bottaro, un apasionado desarrollador front end  <br/> & back end, situado en Argentina.</p>
+                  <p>Hola, soy Martin Bottaro, un apasionado desarrollador front end  <br/> & back end.</p>
                   <div class="seccionboton0">
                       <p class="boton0"></p>
                       <a class="mitrabajo" href="https://github.com/martu344?tab=repositories" target="_blank">MIRA MI TRABAJO </a>
